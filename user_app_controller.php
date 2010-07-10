@@ -3,7 +3,7 @@
 class UserAppController extends AppController {
 
 	var $components = array(
-		'User.Auth',
+		'User.Auth', 'User.Acl'
 	);
 }
 
